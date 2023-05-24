@@ -1,19 +1,14 @@
-name = "garrys-package"
+name = "spasm"
 main = "init.lua"
 cl_main = nil
-version = 0
+version = 000100
 client = true
 server = true
 menu = false
 autorun = true
 isolation = true
-send = { }
+send = nil
 logger = false
-gamemodes = {
-  "sandbox",
-  "darkrp"
-}
-maps = {
-  "gm_construct"
-}
+gamemodes = nil
+maps = nil
 singleplayer = false
