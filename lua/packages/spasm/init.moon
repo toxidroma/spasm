@@ -25,6 +25,7 @@ class UPLINK_SPASM extends UPLINK
 
 import Random from table
 export SEQUENCE_LOOKUP = {}
+hook.Add 'PostLoadAnimations', tostring(_PKG), -> SEQUENCE_LOOKUP = {}
 with FindMetaTable 'Player'
     .FindSequence = (act) =>
         return SEQUENCE_LOOKUP[act] if SEQUENCE_LOOKUP[act]
