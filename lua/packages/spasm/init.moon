@@ -1,4 +1,4 @@
-require 'class-war', 'https://github.com/toxidroma/class-war'
+install 'class-war', 'https://github.com/toxidroma/class-war'
     --provides UPLINK
 
 import ReadEntity, WriteEntity,
