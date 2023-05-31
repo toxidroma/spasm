@@ -1,7 +1,7 @@
 {
-    "name": "garrys-package",
+    "name": "spasm",
     "files": {
-        "lua/packages/garrys-package/package.lua": "https://raw.githubusercontent.com/toxidroma/garrys-package/main/lua/packages/garrys-package/package.lua",
-        "lua/packages/garrys-package/init.lua": "https://raw.githubusercontent.com/toxidroma/garrys-package/main/lua/packages/garrys-package/init.lua"
+        "lua/packages/spasm/package.moon": "https://raw.githubusercontent.com/toxidroma/spasm/main/lua/packages/spasm/package.moon",
+        "lua/packages/spasm/init.moon": "https://raw.githubusercontent.com/toxidroma/spasm/main/lua/packages/spasm/init.moon"
     }
 }
